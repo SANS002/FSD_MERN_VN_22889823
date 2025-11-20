@@ -1,0 +1,56 @@
+ body {
+            /* background-image: url(https://www.tripnstay.com/wp-content/uploads/2019/12/Best-restaurants-in-Switzerland.jpg); */
+            background-color: #060606;
+            font-family: Arial;
+            padding: 20px;
+            backdrop-filter: blure(10px);
+            background-size: cover;
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-attachment: fixed;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .card {
+           background-color: #ffffff; /* Solid color blocks the filter */
+            width: 300px;
+            margin: 20px;
+            padding: 50px;
+            border-radius: 10px;
+            align-items: center;
+        }
+
+        .card-image img {
+            width: 100%;
+            height: 150px;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        button {
+            background-color: bisque;
+            color:black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            width: 100%;
+        }
+
+h2{
+    text-align: center;
+    color: bisque;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
